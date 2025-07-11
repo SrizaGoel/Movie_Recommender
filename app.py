@@ -6,12 +6,13 @@ import io
 
 url = "https://huggingface.co/artisticme/movie-recommender-assets/resolve/main/similarity.pkl"
 response = requests.get(url)
-similarity = pickle.loads(io.BytesIO(response.content))
+similarity = pickle.loads(response.content)
 movies_url = "https://huggingface.co/artisticme/movie-recommender-assets/resolve/main/movies_dict.pkl"
 movies_response = requests.get(movies_url)
-movies_dict = pickle.loads(io.BytesIO(movies_response.content))
+movies_dict = pickle.loads(movies_response.content)
 movies = pd.DataFrame(movies_dict)
 #movies_dict = pickle.load(open('movies_dict.pkl','rb'))
+
 st.markdown(
     """
     <style>
