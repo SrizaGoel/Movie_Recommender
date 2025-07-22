@@ -6,7 +6,7 @@ A simple and interactive Movie Recommendation System built using **Python**, **P
 
 ## Live Demo
 
-👉 [Click to try it out!](https://crop-recommendation-jg7l.onrender.com](https://movierecommender-amxpqqf2cwnk7wn4xkkpab.streamlit.app/)) 
+👉 [Click to try it out!](https://movierecommender-amxpqqf2cwnk7wn4xkkpab.streamlit.app/) 
 
 ---
 
